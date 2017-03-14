@@ -1,7 +1,20 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset='utf-8'>
+        <title>Mad Libs</title>
+        <link href='lib/bootstrap/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='style/style.css' rel='stylesheet'>
     </head>
-    <body>
+    <body ng-app="madLibs">
+        <a href="#/inputwords.html">Input</a>
+        <a href="#/displaystory.html">Display</a>
+        <ng-view></ng-view>
+        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js'></script>
+        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js'></script>
+        <script src='script/module/module.js'></script>
+        <script src="script/controller/inputctrl.js"></script>
+        <script src="script/controller/displayctrl.js"></script>
+        <script src="script/factory/factory.js"></script>
     </body>
 </html>
