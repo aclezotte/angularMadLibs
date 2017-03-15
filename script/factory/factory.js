@@ -7,7 +7,6 @@ app.factory("madLibsFactory", function() {
     return {
        
         sayWord: function(words) {
-            console.log("factory:" + words[0]);
             savedWords = words;
         },
         

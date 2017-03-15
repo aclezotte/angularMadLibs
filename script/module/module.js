@@ -1,3 +1,7 @@
+jQuery(document).ready(function() {
+    jQuery.backstretch("images/books.jpg");
+});
+
 var app = angular.module("madLibs", ["ngRoute"]);
 
 app.config(function($routeProvider, $locationProvider) {
