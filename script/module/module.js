@@ -10,6 +10,10 @@ app.config(function($routeProvider, $locationProvider) {
         .when("/displaystory", {
         controller: "displayCtrl",
         templateUrl: "view/displaystory.html"
+    })
+        .otherwise({
+        controller: "inputCtrl",
+        templateUrl: "view/inputwords.html"
     });
 
     $locationProvider.hashPrefix("");

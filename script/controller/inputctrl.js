@@ -8,7 +8,7 @@ app.controller("inputCtrl", function($scope, $location, madLibsFactory) {
         
         madLibsFactory.sayWord(words);
         
-        //$location.path("/displaystory");
+        $location.path("/displaystory");
         
     };
 
