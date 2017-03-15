@@ -1,8 +1,6 @@
 var app = angular.module("madLibs", ["ngRoute"]);
 
 app.config(function($routeProvider, $locationProvider) {
-
-    console.log("hello world");
     
     $routeProvider
         .when("/inputwords", {
